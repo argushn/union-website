@@ -32,4 +32,11 @@ I removed certain features from the original theme packages as we do not really 
 4. Your site should be accessible at `localhost:4000`.
 5. For additional information about Jekyll, refer to the [official website](http://jekyllrb.com/). 
 
-## Enjoy!
+## How to Run
+
+```
+sudo docker run --rm -ti -v $(pwd):/srv -w /srv --net host --entrypoint /bin/sh ruby:2.7
+gem install bundler:1.16.0
+bundle install
+bundle exec jekyll serve
+```

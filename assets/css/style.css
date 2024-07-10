@@ -123,7 +123,7 @@ float: right;
     padding:10px;
 }
 .current span{
-    color:#55CBD2;
+    color:white;
 
 }
 
@@ -152,7 +152,7 @@ body {
 }
 
 a {
-    color: #55CBD2;
+    color: #EFD19F;
     text-decoration: none;
     -o-transition: all .3s;
     -moz-transition: all .3s;
@@ -226,7 +226,7 @@ address {
 * ==========================================================================
 */
 .active{
-  background:#74B9B9 !important;
+  background:#0A245E !important;
   color: white;
 }
 .navbar {
@@ -407,7 +407,7 @@ p.blog-text{
   }
 }
 .feedback-section .address-section .address-icon {
-  color: #1bbd9b;
+  color: ;
   font-size: 48px;
   line-height: 48px;
   margin-bottom: 30px;
@@ -440,7 +440,7 @@ p.blog-text{
   margin-top: 50px;
 }
 .services-section .services-icon {
-  color: #1bbd9b;
+  color: white;
   margin-bottom: 30px;
 }
 .services-section .services-title {
@@ -470,8 +470,8 @@ p.blog-text{
 }
 .services-group{
   padding: 10px;
-  background:#061F20;
-  color: white;
+  background: #0A245E;
+  color: #F2F1EF;
 }
 .service-icon{
   color: white;
@@ -505,7 +505,7 @@ footer{
    margin-top:40px;
    left: 0;
    right: 0;
-   background: black;
+   background: #0A245E;
    bottom: 0px;
 }
 
@@ -525,7 +525,7 @@ footer h3 {
 }
 
 #social-icons .btn-group {
-    color: #55CBD2;
+    color: white;
     margin-right: 15px;
 }
 #social-icons .btn-group:hover {
@@ -535,7 +535,7 @@ footer h3 {
 .copyright {
     color: #fff;
     padding: 20px 0px 10px 0px;
-    background-color: rgb(23, 23, 23);
+    background-color: #7E7E82;
 }
 
 /*

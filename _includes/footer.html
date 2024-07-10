@@ -1,30 +1,30 @@
-<!-- Footer -->
+<!-- Pie de página -->
 <footer> 
   <div class="container">
     <div class="row">
       <div class="col-md-4">
-        <h3><i class="fa fa-map-marker"></i> Contact:</h3>
+        <h3><i class="fa fa-map-marker"></i> Contacto:</h3>
         <p class="footer-contact">
           {{ site.company_name }} <br>
-          Phone: {{ site.telephone_number }} <br>
+          Teléfono: {{ site.telephone_number }} <br>
           Fax: {{ site.fax_number }} <br>
-          Email: {{ site.company_email }}<br>
+          Correo electrónico: {{ site.company_email }}<br>
         </p>
       </div>
       <div class="col-md-4">
-        <h3><i class="fa fa-external-link"></i> Links</h3>
-        <p><a href="/about"> About ( Who we are )</a></p>
-        <p><a href="/about"> Services ( What we do )</a></p>
-        <p><a href="/contact"> Contact ( Feel free to contact )</a></p>
-        <p><a href="/blog"> Blog ( Write to us )</a></p>
-        <p><a href="/team"> Team ( Meet the Team )</a></p> 
+        <h3><i class="fa fa-external-link"></i> Enlaces</h3>
+        <p><a href="/about"> Acerca de ( Quiénes somos )</a></p>
+        <p><a href="/services"> Servicios ( Lo que hacemos )</a></p>
+        <p><a href="/contact"> Contacto ( No dudes en contactarnos )</a></p>
+        <p><a href="/blog"> Blog ( Escríbenos )</a></p>
+        <p><a href="/team"> Equipo ( Conoce al equipo )</a></p> 
       </div>
       <div class="col-md-4">
-        <h3><i class="fa fa-heart"></i> Socialize</h3>
+        <h3><i class="fa fa-heart"></i> Socialízate</h3>
         <div id="social-icons">
-          {% if site.googleplus_link %}
-            <a href="{{ site.googleplus_link }}" class="btn-group google-plus">
-              <i class="fa fa-google-plus"></i>
+          {% if site.youtube_link %}
+            <a href="{{ site.youtube_link }}" class="btn-group youtube">
+              <i class="fa fa-youtube-square"></i>
             </a>
           {% endif %}
 
@@ -34,7 +34,7 @@
             </a>
           {% endif %}
 
-          {% if site.facebook_link %}
+          {% if site.twitter_link %}
             <a href="{{ site.twitter_link }}" class="btn-group twitter">
               <i class="fa fa-twitter"></i>
             </a>
@@ -51,6 +51,6 @@
   </div>
 
   <div class="copyright text center">
-    <p>&copy; Copyright {{ site.time | date: '%Y' }}, <a href="#">Your Website Link</a>. <br>Theme ported by <a href="https://melvinchng.github.io/" target="_blank">Melvin Ch'ng</a></p>
+    <p>&copy; Copyright {{ site.time | date: '%Y' }}, <a href="#">Unión Hondureña</a>. <br>Tema por <a href="https://melvinchng.github.io/" target="_blank">Melvin Ch'ng</a></p>
   </div>
 </footer>
