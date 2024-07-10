@@ -7,17 +7,14 @@
         <p class="footer-contact">
           {{ site.company_name }} <br>
           Teléfono: {{ site.telephone_number }} <br>
-          Fax: {{ site.fax_number }} <br>
           Correo electrónico: {{ site.company_email }}<br>
         </p>
       </div>
       <div class="col-md-4">
         <h3><i class="fa fa-external-link"></i> Enlaces</h3>
         <p><a href="/about"> Acerca de ( Quiénes somos )</a></p>
-        <p><a href="/services"> Servicios ( Lo que hacemos )</a></p>
         <p><a href="/contact"> Contacto ( No dudes en contactarnos )</a></p>
-        <p><a href="/blog"> Blog ( Escríbenos )</a></p>
-        <p><a href="/team"> Equipo ( Conoce al equipo )</a></p> 
+        <p><a href="/blog"> Blog ( Infórmate )</a></p>
       </div>
       <div class="col-md-4">
         <h3><i class="fa fa-heart"></i> Socialízate</h3>
@@ -25,18 +22,6 @@
           {% if site.youtube_link %}
             <a href="{{ site.youtube_link }}" class="btn-group youtube">
               <i class="fa fa-youtube-square"></i>
-            </a>
-          {% endif %}
-
-          {% if site.linkedin_link %}
-            <a href="{{ site.linkedin_link }}" class="btn-group linkedin">
-              <i class="fa fa-linkedin-square"></i>
-            </a>
-          {% endif %}
-
-          {% if site.twitter_link %}
-            <a href="{{ site.twitter_link }}" class="btn-group twitter">
-              <i class="fa fa-twitter"></i>
             </a>
           {% endif %}
 
