@@ -752,3 +752,66 @@ footer h3 {
     font-size: 14px;
   }
 }
+
+/* 
+Custom
+*/
+.sidebar {
+  background: #0A245E; /* Azul oscuro */
+  color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.sidebar h4 {
+  color: #F2F1EF; /* Color claro para el texto */
+}
+
+.sidebar .list-group-item {
+  background: #0A245E; /* Azul oscuro */
+  color: #F2F1EF; /* Color claro para el texto */
+}
+
+.sidebar .list-group-item:hover, .sidebar .list-group-item:focus {
+  background: #528C7C; /* Color más claro al pasar el cursor */
+}
+
+.card {
+  margin-bottom: 20px;
+}
+
+.card-body {
+  background: #F2F1EF; /* Fondo claro */
+  color: #0A245E; /* Texto oscuro */
+  padding: 15px;
+}
+
+.card-title {
+  height: 2.5em; /* Limita la altura del título */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: center;
+}
+
+.card-title a {
+  color: #0A245E;
+  text-decoration: none;
+}
+
+.card-title a:hover {
+  text-decoration: underline;
+}
+
+.card-img-top {
+  width: 100%;
+  height: auto;
+  max-height: 150px; /* Ajusta según tu preferencia */
+  object-fit: cover;
+}
+
+.card-text {
+  height: 3em; /* Limita la altura del texto */
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
