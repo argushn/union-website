@@ -29,7 +29,7 @@ permalink: /principles
                 {% for principle in site.data.principles %}
                 <div class="col-md-4">
                     <div class="card mb-4">
-                        <a id="principle{{ principle.id }}" href="{{ principle.link }}">
+                        <a id="principle{{ principle.id }}" href="{{ site.baseurl }}{{ principle.link }}">
                             <img src="{{ site.url }}{{ site.baseurl }}/assets/img/principles/principle_{{ principle.id }}.jpg"
                                 class="card-img-top" alt="Thumbnail for {{ principle.title }}">
                             <div class="card-body">
