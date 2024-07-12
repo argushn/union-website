@@ -1,0 +1,12 @@
+ministers:
+  - name: Felix Padilla
+  - name: Jary Reyes
+  - name: Rubí Gámez
+
+pastors:
+  - name: Abraham Gómez
+  - name: Daniel Contreras
+  - name: Eliezer Pereira
+  - name: Pedro Alfaro
+    state: Jubilado
+  - name: Santos Guardado
