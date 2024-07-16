@@ -1,30 +1,23 @@
 ---
 layout: default_style
 permalink: /ministry
+description: |
+    <div class="row container-kamn">
+        <img src="{{ site.baseurl }}/assets/img/slider/slide1.jpg" class="blog-post" alt="Feature-img" align="right" width="100%">
+    </div>
+    <em>
+        Te invitamos a conocer a nuestros líderes espirituales, quienes guían y apoyan a nuestra comunidad con
+        dedicación y amor.
+    </em>
+sidebar_title: Contexto
+sidebar_content: |
+    Descubre más sobre los ministros y pastores que trabajan incansablemente para
+    fomentar la fe, la unidad y el crecimiento espiritual de nuestros miembros. ¡Conéctate con nosotros y sé
+    parte de esta gran familia!
 ---
-
-<div class="row container-kamn">
-    <img src="{{ site.baseurl }}/assets/img/slider/slide1.jpg" class="blog-post" alt="Feature-img" align="right"
-        width="100%">
-</div>
-
-<div id="banners"></div>
 
 <div class="container">
     <div class="row">
-        <div class="side-left col-sm-4 col-md-4">
-
-            <h3 class="lead">Conociendo a Nuestros Líderes Espirituales</h3>
-            <hr>
-            <p>
-                Te invitamos a conocer a nuestros líderes espirituales, quienes guían y apoyan a nuestra comunidad con
-                dedicación y amor. Descubre más sobre los ministros y pastores que trabajan incansablemente para
-                fomentar la fe, la unidad y el crecimiento espiritual de nuestros miembros. ¡Conéctate con nosotros y sé
-                parte de esta gran familia!
-            </p>
-
-        </div>
-
         <div class="col-sm-8 col-md-8">
             <div class="services-header">
                 <header class="principle-header">
@@ -72,44 +65,3 @@ permalink: /ministry
         </div>
     </div>
 </div>
-
-
-<!-- <div class="container">
-    <div class="row">
-        <div class="services-header">
-            <h3 class="services-header-title">Ministros</h3>
-            <ul class="services-header-body">
-                {% for minister in site.data.ministers.ministers %}
-                <li>{{ minister.name }}</li>
-                {% endfor %}
-            </ul>
-            <hr>
-        </div>
-    </div>
-    <div class="row">
-        <div class="services-header">
-            <h3 class="services-header-title">Pastores</h3>
-            <p class="services-header-body">
-                <em>De campo:</em>
-
-                <ul class="services-header-body">
-                    {% for minister in site.data.ministers.pastors %}
-                    <li>{{ minister.name }}</li>
-                    {% endfor %}
-                </ul>
-            </p>
-
-            <p>
-                <em>En Iglesias:</em>
-            </p>
-            <hr>
-        </div>
-    </div>
-</div> -->
-
-
-
-<!-- {% for principle in site.data.principles %}
-<li class="list-group-item"><a href="{{ site.baseurl }}{{ principle.link }}">{{ principle.id }}. {{
-        principle.title }}</a></li>
-{% endfor %} -->
