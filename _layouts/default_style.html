@@ -1,13 +1,52 @@
 <!doctype html>
 <html lang="en">
 
-  {% include head.html %}
-  {% include header.html %}
-  {% include script.html %}
+{% include head.html %}
+{% include header.html %}
+{% include script.html %}
 
-  <body>
-    {{ content }}
-  </body>
+<body>
 
-  {% include footer.html %}
+  <!-- banner image -->
+   {% if page.banner%}
+  <div class="row container-kamn">
+    <img src="{{ site.baseurl }}{{ page.banner }}" class="blog-post" alt="Feature-img" align="right" width="100%">
+  </div>
+  {% endif %}
+
+  <div class="container">
+    <!-- section description -->
+    <div class="row">
+      <div class="services-header">
+        <h3 class="services-header-title">{{ page.title }}</h3>
+        <p class="services-header-body">
+          {{ page.description }}
+        </p>
+        <hr>
+      </div>
+    </div>
+
+    <div class="row">
+      <!-- side bar -->
+      <div class="col-md-3">
+        <div class="sidebar wow animated fadeInLeft">
+          <h4>{{ page.sidebar_title }}</h4>
+          {{ page.sidebar_content}}
+        </div>
+      </div>
+
+      <!-- content -->
+      <div class="col-md-9 wow animated fadeInRight">
+        <div class="row">
+          {{ content }}
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+
+{% include footer.html %}
+
 </html>
