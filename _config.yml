@@ -1,33 +1,17 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
 title: Unión Hondureña
 email: hndoss@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
+description: >
   Iglesia Adventista del Séptimo Día Movimiento de Reforma - Unión Hondureña
-url: "https://argushn.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://argushn.github.io"
 baseurl: "/union-website"
 # baseurl: ""
 
-# Company Information
+## Contact Information
 company_name: Unión Hondureña
 address_line: J47F+658, Siguatepeque, Comayagua
 telephone_number: +504 8777-9224
 company_email: asdmruh@gmail.com
 google_map: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6461.3216771822235!2d-87.87977943336612!3d14.609686376530423!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f65bf202adb95d1%3A0x8b3f64d6e4dbf372!2sEscuela%20misionera%20Eben-Eser!5e0!3m2!1ses-419!2shn!4v1720606045663!5m2!1ses-419!2shn
-# Social Link
 facebook_link: https://www.facebook.com/profile.php?id=100064555941818
 youtube_link: https://www.youtube.com/@unionhondurenaasdmr8339
 
@@ -41,15 +25,3 @@ collections:
     output: true
   ministers:
     output: true
-    # permalink: /principles/:name/
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
