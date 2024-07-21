@@ -495,7 +495,8 @@ p.blog-text {
 
 .services-section .services-icon {
   color: white;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
+  margin-top: 15px
 }
 
 .services-section .services-title {
